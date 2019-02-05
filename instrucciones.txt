@@ -1,0 +1,22 @@
+//para proyectos existentes realiza los sig comandos
+>> composer install
+
+##### Renombrar el archivo .env.example a .env #####
+##### Crear base datos: bibloteca			   #####
+
+//si ya existe una base de datos SIN tablas
+>> php artisan migrate
+
+//si ya existe una base de datos CON tablas
+>> php artisan migrate:refresh --seed
+
+// ejecutar semillas para llenar tablas a la base de datos
+>> php artisan db:seed
+
+// crear cliente para la autenticación
+##### dar el nombre de: biblioteca			   #####
+>> php artisan passport:client --password
+
+// entrar a phpmyadmin y crear un cliente personal de manera manual
+// en la tabla: oauth_personal_access_clients con la misma id del
+// cliente recien creado
