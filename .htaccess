@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteRule ^$ http://%{HTTP_HOST}/sbm-web/public [L]
+RedirectMatch 403 /\..*$
+<Files ~ "\.json$">
+Order Allow,Deny
+Deny from All
+</Files>
+<Files ~ "\.lock$">
+Order Allow,Deny
+Deny from All
+</Files>
+RewriteRule ^(artisan\.php) - [F,L,NC]
+RewriteRule ^(server\.php) - [F,L,NC]
+RewriteRule ^(phpunit\.xml) - [F,L,NC]
+RewriteRule ^(webpack.mix\.js) - [F,L,NC]
+Options -Indexes
