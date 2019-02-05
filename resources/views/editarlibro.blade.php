@@ -110,7 +110,7 @@
                                         {{ __('Actualizar') }}
                                     </button>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="button" class="btn btn-primary" id="cancelar" onclick="location.href='/libros'" style="width: 110px" value="Cancelar">
+                                    <input type="button" class="btn btn-primary" id="cancelar" onclick="location.href='/sbm-web/public/libros'" style="width: 110px" value="Cancelar">
                                 </div>
                             </div>
                         </form>

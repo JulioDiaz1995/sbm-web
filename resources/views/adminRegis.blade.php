@@ -99,7 +99,7 @@
 
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                                    <button type="button" onclick="location.href='/home'" class="btn btn-primary">
+                                    <button type="button" onclick="location.href='/sbm-web/public/home'" class="btn btn-primary">
                                         {{ __('Cancelar') }}
                                     </button>
                                 </div>

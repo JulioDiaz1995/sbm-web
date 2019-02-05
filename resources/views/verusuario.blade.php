@@ -17,7 +17,7 @@
                             <tr><h4><center><br>Email: {{ $users->email }}</center></h4></tr>
                             <tr><h4><center><br>Carrera: {{ $users->nombre_carrera }}</center></h4></tr>
                             <tr><h4><center><br>Rol: {{ $users->description }}</center></h4></tr>
-                            <tr><center><br><input type="button" class="btn btn-primary" id="cancelar" onclick="location.href='/administraciondeusuarios'" style="width: 110px" value="Regresar"></center></tr>
+                            <tr><center><br><input type="button" class="btn btn-primary" id="cancelar" onclick="location.href='/sbm-web/public//administraciondeusuarios'" style="width: 110px" value="Regresar"></center></tr>
                         @empty
                                 <h1 align="center" style="color: red">Usuario No Encontrado</h1>
                         @endforelse

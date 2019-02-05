@@ -120,7 +120,7 @@
                                     </button>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                                    <button type="button" onclick="location.href='/administraciondeusuarios'" class="btn btn-primary">
+                                    <button type="button" onclick="location.href='/sbm-web/public/administraciondeusuarios'" class="btn btn-primary">
                                         {{ __('Cancelar') }}
                                     </button>
                                 </div>

@@ -18,7 +18,7 @@
                             <tr><h4><center><br>Categoria: {{ $books->descripcion_categoria }}</center></h4></tr>
                             <tr><h4><center><br>Materia: {{ $books->descripcion_materia }}</center></h4></tr>
                             <tr><h4><center><br>Descripcion: {{ $books->descripcion_libro }}</center></h4></tr>
-                            <tr><center><br><input type="button" class="btn btn-primary" id="cancelar" onclick="location.href='/libros'" style="width: 110px" value="Regresar"></center></tr>
+                            <tr><center><br><input type="button" class="btn btn-primary" id="cancelar" onclick="location.href='/sbm-web/public/libros'" style="width: 110px" value="Regresar"></center></tr>
                         @empty
                                 <h1 align="center" style="color: red">Libro No Encontrado</h1>
                         @endforelse
